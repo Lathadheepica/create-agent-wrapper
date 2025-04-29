@@ -2,6 +2,17 @@
 
 This repository provides a unified wrapper around two agent creation APIs: VAPI and Retell.
 
+#Structure
+create-agent-wrapper/
+├── app/
+│   ├── services/
+│   │   ├── vapi_service.py
+│   │   └── retell_service.py
+│   └── schemas.py
+├── main.py
+├── requirements.txt
+└── README.md
+
 ### Setup
 
 1. Clone the repository.
